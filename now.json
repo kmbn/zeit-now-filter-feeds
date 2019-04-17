@@ -5,7 +5,7 @@
     {
       "src": "*.py",
       "use": "@now/python",
-      "config": { "maxLambdaSize": "5mb" }
+      "config": { "maxLambdaSize": "8mb" }
     }
   ]
 }

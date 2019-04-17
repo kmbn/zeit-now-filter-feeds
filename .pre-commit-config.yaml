@@ -1,3 +1,5 @@
+exclude: ^lxml/
+
 repos:
   - repo: https://github.com/pre-commit/mirrors-isort
     rev: v4.3.17

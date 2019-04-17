@@ -1,7 +1,6 @@
 """Tests for index.py."""
 
-import index
 
-
-def test_hello_world():
-    assert index.hello_world() == "Hello world!"
+def test_filter_feed():
+    # TODO: Add data directory with sample feeds and complete this test.
+    pass
