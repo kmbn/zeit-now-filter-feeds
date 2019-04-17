@@ -7,5 +7,6 @@
       "use": "@now/python",
       "config": { "maxLambdaSize": "8mb" }
     }
-  ]
+  ],
+  "routes": [{ "src": "/(?<feed>[^/]+)", "dest": "/index.py?feed=$feed" }]
 }
