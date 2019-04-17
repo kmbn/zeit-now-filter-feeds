@@ -3,7 +3,7 @@
   "name": "filter-feeds",
   "builds": [
     {
-      "src": "*.py",
+      "src": "index.py",
       "use": "@now/python",
       "config": { "maxLambdaSize": "8mb" }
     }
